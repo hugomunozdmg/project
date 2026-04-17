@@ -8,6 +8,10 @@ fetch("./dashboard/dashboard.html").then(res => res.text()).then(html => {
     document.getElementById("main").innerHTML = html
 })
 
+fetch("./footer/footer.html").then(res => res.text()).then(html => {
+    document.getElementById("footer").innerHTML = html
+})
+
 //He colocado la variable user porque la voy a usar en varios sitios
 //(se muestra el nombre en todas las páginas)
 let user
