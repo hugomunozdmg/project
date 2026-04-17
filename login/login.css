@@ -1,0 +1,25 @@
+#login-container {
+  display: flex;
+  justify-content: center;
+  padding: 20rem;
+}
+
+#login-box {
+  border: 0.1rem solid #b8f;
+  border-radius: 0.2rem;
+}
+
+.login-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-input,
+#bt-login,
+h3 {
+  margin: 1rem;
+}
+
+#alert {
+    color: red;
+}

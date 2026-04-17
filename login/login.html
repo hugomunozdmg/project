@@ -1,4 +1,15 @@
-
-
-<input type="text" id="input">
-<button onclick="doLogin()">login</button>
+<div id="login-container">
+  <div class="box" id="login-box">
+    <h3>Login</h3>
+    <div class="login-input">
+      <label for="user">User:</label>
+      <input type="text" id="user" />
+    </div>
+    <div class="login-input">
+      <label for="password">Password:</label>
+      <input type="password" id="password" />
+    </div>
+    <button id="bt-login" onclick="doLogin()">login</button>
+    <p id="alert"></p>
+  </div>
+</div>
